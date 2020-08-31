@@ -1,0 +1,77 @@
+/*.menu{
+    display: block;
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    outline:  1px solid red;
+    padding-left: 0px;
+    padding: 5px;
+    
+    transform: translateZ(0);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+li {
+    
+    list-style: none;
+    line-height: 22px;
+    outline:  1px solid blue;
+    padding-left: 5px;
+    z-index: 9;
+    padding: 5px;
+    transition: all 0.5s ease-out;
+    box-shadow: 3px 0 rgba(255, 255, 255, .8) inset;
+}
+
+li>a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    outline: 1px solid green;
+    z-index: 20;
+    display: block;
+    width: 100%;
+}
+
+
+
+li:hover{
+    box-shadow: 90px 0 rgba(255, 255, 255, .8) inset;
+    
+} 
+
+*/
+
+
+.menu{
+    width: 100px;
+    background: rgba(0, 0, 0, .2);
+    outline:  1px solid red;
+    padding: 0px;
+    /*
+    transform: translateZ(0);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;*/
+}
+
+li {
+    width: 100%;
+    list-style: none;
+    line-height: 22px;
+    outline:  1px solid blue;
+    margin-bottom: 2px;
+    background: linear-gradient(180deg,hsla(0,0%,100%,0) 96%,#63666a 0);
+    background-position: -97px 0;
+    background-size: 100% 1;
+    background-repeat: no-repeat;
+    color: #000;
+    transition: all 0.3s;
+}
+
+li:hover{
+    background-position: 100% 0px;
+    background: seagreen;
+    background-size: cover;
+} 
+
